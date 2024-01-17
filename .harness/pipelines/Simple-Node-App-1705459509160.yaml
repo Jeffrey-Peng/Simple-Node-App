@@ -46,7 +46,7 @@ pipeline:
                   timeout: ""
                   type: Plugin
           platform:
-            os: Linux
+            os: Windows
             arch: Amd64
           runtime:
             type: Docker

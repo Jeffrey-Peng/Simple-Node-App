@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Jeffrey_Peng_Simple_Node_App_1705459536191-pr-trigger-input-set
+  identifier: Build_Jeffrey_Peng_Simple_Node_App_1705459536191prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: enterprise_se_lab
+  pipeline:
+    identifier: Build_Jeffrey_Peng_Simple_Node_App_1705459536191
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>

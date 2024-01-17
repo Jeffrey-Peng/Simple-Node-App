@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Jeffrey_Peng_Simple_Node_App_1705459536191-push-trigger-input-set
+  identifier: Build_Jeffrey_Peng_Simple_Node_App_1705459536191pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: enterprise_se_lab
+  pipeline:
+    identifier: Build_Jeffrey_Peng_Simple_Node_App_1705459536191
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

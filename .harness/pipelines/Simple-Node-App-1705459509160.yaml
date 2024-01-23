@@ -54,4 +54,5 @@ pipeline:
         type: CI
         delegateSelectors:
           - docker-delegate
+        description: ""
   tags: {}
